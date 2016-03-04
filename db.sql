@@ -13,9 +13,9 @@ create table `user` (
 INSERT INTO `user` 
 (`email`,`name`,`password`,`photo_url`) 
 values
-('user2@gmail' , 'name2' ,'*****' , ''),
-('user3@gmail' , 'name3' ,'*****' , ''),
-('user4@gmail' , 'name4' ,'*****' , '');	
+('user2@gmail' , 'name2' ,'12345' , ''),
+('user3@gmail' , 'name3' ,'12345' , ''),
+('user4@gmail' , 'name4' ,'12345' , '');	
 
 /* Query to fetch data from database */
 SELECT * FROM `user` where password='*****';
